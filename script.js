@@ -69,7 +69,8 @@ const starttimer = () =>{
         timeb.style.background="red";
         clearInterval(timer);
         timer=null;
-        rendorquestion();
+        highlightans();
+        nextbtn.style.visibility="visible";
         return;
       }
     },1000);
